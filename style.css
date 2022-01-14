@@ -1,0 +1,22 @@
+/* Heading and nav section */
+.Heading{
+    position: absolute;
+    padding-top: 120px;
+    padding-left: 350px;
+    font-size: 25px;
+    color: rgb(27, 27, 43);
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin: 7px;
+}
+nav{
+    display: flex;
+    justify-content: right;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 120px;
+    padding-right: 90px;
+}
+

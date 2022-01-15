@@ -21,6 +21,9 @@ nav{
     
     
 }
+nav a:hover{
+    color: blue;
+}
 /* Prebook Section */
 .influencer{
     padding-left: 350px;
@@ -38,4 +41,15 @@ nav{
 }
 .images{
     padding-left: 1100px;
+    margin-top: -300px ;
+}
+.button{
+    background-color: rgb(216, 49, 20);
+    font-size: 29px;
+    border-radius: 20px;
+    color: white;
+}
+.button:hover{
+    background-color: rgb(212, 191, 185);
+    color: black;
 }

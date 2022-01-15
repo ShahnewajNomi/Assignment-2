@@ -41,6 +41,9 @@ nav a:hover {
   padding-left: 1100px;
   margin-top: -300px;
 }
+.images:hover{
+  
+}
 /* button section */
 .button {
   background-color: rgb(216, 49, 20);
@@ -87,6 +90,29 @@ h3{
 .fa-star.filled{
     color: goldenrod;
 }
+/* Support section */
+.login-form{
+  display: flex;
+  flex-direction: column;
+}
+.login-container{
+  display: flex;
+  justify-content: right;
+  padding-right: 700px;
+  margin: 30px;  
+}
+.login-form input, button{
+  font-size: 1.2em;
+  margin-top: 18px;
+  border: 1px solid rgb(120, 175, 132);
+  padding-left: 280px;
+  border-radius: 5px;
+}
+.login-form button{
+  background-color: maroon;
+  color: white;
+  padding: 4px;
+}
 /* footer section */
 footer{
     padding-top: 30px;
@@ -94,6 +120,6 @@ footer{
     background-color: rgb(37, 37, 37);
     color: white;
     text-align: center;
-    font-size: 12px;
+    font-size: 18px;
     font-family: 'Island Moments', cursive;
 }

@@ -261,6 +261,7 @@ footer{
   font-size: 12px;
 }
 }
+/* Responsive For Tablet */
 @media screen and (max-width:900px) and (min-width:600px) {
   .Heading {
     position: absolute;

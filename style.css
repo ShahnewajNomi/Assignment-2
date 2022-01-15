@@ -41,9 +41,6 @@ nav a:hover {
   padding-left: 1100px;
   margin-top: -300px;
 }
-.images:hover{
-  
-}
 /* button section */
 .button {
   background-color: rgb(216, 49, 20);
@@ -98,14 +95,14 @@ h3{
 .login-container{
   display: flex;
   justify-content: right;
-  padding-right: 700px;
-  margin: 30px;  
+  padding-right: 800px;
+  
 }
 .login-form input, button{
   font-size: 1.2em;
-  margin-top: 18px;
+  margin-top: 15px;
   border: 1px solid rgb(120, 175, 132);
-  padding-left: 280px;
+  padding-left: 10px;
   border-radius: 5px;
 }
 .login-form button{
@@ -116,10 +113,10 @@ h3{
 /* footer section */
 footer{
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
     background-color: rgb(37, 37, 37);
     color: white;
     text-align: center;
-    font-size: 18px;
+    font-size: 12px;
     font-family: 'Island Moments', cursive;
 }

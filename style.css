@@ -22,6 +22,8 @@ nav {
 nav a:hover {
   color: blue;
 }
+/* Responsive nav for mobile Devices */
+
 /* Prebook Section */
 .influencer {
   padding-left: 200px;
@@ -40,6 +42,7 @@ nav a:hover {
 .images {
   padding-left: 1100px;
   margin-top: -300px;
+  
 }
 /* button section */
 .button {
@@ -52,6 +55,18 @@ nav a:hover {
   background-color: rgb(212, 191, 185);
   color: black;
 }
+@media screen (max-width:600px) {
+  .button {
+    background-color: rgb(216, 49, 20);
+    font-size: 14px;
+    border-radius: 7px;
+    color: white;
+  }
+  .button:hover {
+    background-color: rgb(49, 39, 36);
+    color: black;
+  }
+}
 /* brand section */
 .brand {
   display: flex;
@@ -63,6 +78,8 @@ nav a:hover {
 hr {
   border: 1px solid rgb(247, 247, 247);
 }
+
+
 /* Collection part */
 .heading{
     text-align: center;
@@ -77,12 +94,39 @@ hr {
     padding-top: 20px;
     font-family: 'Island Moments', cursive;
 }
+.collections img:hover{
+  transform: translateX(20px);
+  
+}
 h3{
   text-align: right;
   padding-right: 220px;
   color: rgb(211, 67, 67);
   
 }
+  .heading{
+    text-align: center;
+    color: rgb(24, 29, 29);
+    padding-top: 50px;    
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: 'Island Moments', cursive;
+}
+.collections img:hover{
+  transform: translateX(20px);
+  
+}
+h3{
+  text-align: right;
+  padding-right: 220px;
+  color: rgb(211, 67, 67);
+  
+}
+
 /* Products Rating */
 .fa-star.filled{
     color: goldenrod;
@@ -119,4 +163,101 @@ footer{
     text-align: center;
     font-size: 12px;
     font-family: 'Island Moments', cursive;
+    font-size: 15px;
+}
+@media screen and (max-width:600px){
+  .Heading {
+    position: absolute;
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 12px;
+    color: rgb(27, 27, 43);
+  }
+  nav a {
+    text-decoration: none;
+    color: black;
+    margin: 3px;
+  
+  }
+  nav {
+    display: flex;
+    justify-content: right;
+    font-size: 12px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-top: 50px;
+    padding-right: 40px;
+  }
+  .influencer {
+    padding-left: 40px;
+    padding-top: 30px;
+    font-size: 15px;
+    width: 100px;
+  }
+  .influencer-para {
+    padding-left: 40px;
+    font-size: 25px;
+    color: rgb(32, 32, 32);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    width: 250px;
+  }
+  .images {
+    padding-left: 250px;
+    margin-top: -400px;
+    
+  }
+  .brand {
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+    padding-top: 5px;
+    padding-left: 20px;
+  }
+  hr {
+    border: 1px solid rgb(247, 247, 247);
+  }
+  .collections{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding-left: 150px;
+    padding-top: 20px;
+    font-family: 'Island Moments', cursive;
+}
+.collections img:hover{
+  transform: translateX(20px);
+  
+}
+h3{
+  text-align: right;
+  padding-right: 20px;
+  color: rgb(211, 67, 67);
+  
+}
+.login-container{
+  display: flex;
+  justify-content: right;
+  padding-right: 270px;
+  
+}
+.login-form input, button{
+  font-size: 1.2em;
+  margin-top: 15px;
+  border: 1px solid rgb(120, 175, 132);
+  padding-left: 10px;
+  border-radius: 5px;
+}
+.login-form button{
+  background-color: maroon;
+  color: white;
+  padding: 4px;
+}
+footer{
+  padding-top: 5px;
+  padding-bottom: 20px;
+  background-color: rgb(37, 37, 37);
+  color: white;
+  text-align: center;
+  
+  font-family: 'Island Moments', cursive;
+  font-size: 12px;
 }

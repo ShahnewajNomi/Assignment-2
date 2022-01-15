@@ -40,7 +40,7 @@ nav a:hover {
   width: 700px;
 }
 .images {
-  padding-left: 1100px;
+  padding-left: 900px;
   margin-top: -300px;
   
 }
@@ -253,7 +253,7 @@ h3{
 }
 footer{
   padding-top: 5px;
-  padding-bottom: 20px;
+  padding-bottom: 1px;
   background-color: rgb(37, 37, 37);
   color: white;
   text-align: center;

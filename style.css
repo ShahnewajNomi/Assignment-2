@@ -167,7 +167,7 @@ footer{
 @media screen and (max-width:600px){
   .Heading {
     position: absolute;
-    padding-top: 40px;
+    padding-top: 67px;
     padding-left: 40px;
     font-size: 18px;
     color: rgb(7, 116, 56);
@@ -235,7 +235,7 @@ h3{
 .support-container{
   display: flex;
   justify-content: right;
-  padding-right: 120px;
+  padding-right: 50px;
   
 }
 .support-form input, button{
@@ -257,9 +257,6 @@ footer{
   color: white;
   text-align: center;
   
-  font-family: 'Island Moments', cursive;
-  font-size: 12px;
-}
 }
 /* Responsive For Tablet */
 @media screen and (max-width:900px) and (min-width:600px) {

@@ -2,7 +2,7 @@
 .Heading{
     position: absolute;
     padding-top: 120px;
-    padding-left: 350px;
+    padding-left: 200px;
     font-size: 25px;
     color: rgb(27, 27, 43);
 }
@@ -26,14 +26,14 @@ nav a:hover{
 }
 /* Prebook Section */
 .influencer{
-    padding-left: 350px;
+    padding-left: 200px;
     padding-top: 40px;
     font-size: 30px;
     width: 500px;
     
 }
 .influencer-para{
-    padding-left: 350px;
+    padding-left: 200px;
     font-size: 25px;
     color: rgb(32, 32, 32);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -60,11 +60,11 @@ nav a:hover{
     justify-content: space-around;
     width: 1200px;
     padding-top: 50px;
-    padding-left: 300px;
+    padding-left: 220px;
 }
 hr{
-    width: 1200px;
-    height: 5px;
-    background-color: rgb(158, 154, 149);
+    border: 1px solid rgb(247, 247, 247);
+    
+    
 }
 /* Collection part */

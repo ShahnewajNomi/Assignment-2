@@ -18,5 +18,24 @@ nav{
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 120px;
     padding-right: 90px;
+    
+    
 }
-
+/* Prebook Section */
+.influencer{
+    padding-left: 350px;
+    padding-top: 40px;
+    font-size: 30px;
+    width: 500px;
+    
+}
+.influencer-para{
+    padding-left: 350px;
+    font-size: 25px;
+    color: rgb(32, 32, 32);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 700px;
+}
+.images{
+    padding-left: 1100px;
+}
